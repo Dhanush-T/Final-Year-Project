@@ -1,0 +1,25 @@
+CaCl2:
+1.555551.pdf --> Activity and Osmotic Coefficient for CaCl2
+1.555569.pdf --> Activity and osmotic coefficients for aqueous solutions: The alkaline earthmetal halides
+bf00650677.pdf --> Thermodynamics of Calcium Chloride in Highly Concentrated Aqueous Solution and in Hydrated Crystals (No much data)
+je00044a022.pdf --> Osmotic Coefficients of Aqueous CaCl2, Solutions from 3 to 12 m at 50 C
+jpcrd95.pdf --> The Activity and Osmotic Coefficient of Aqueous CaCl2 at 298.15K
+Osmotic and mean activity coefficients of CaCl2, NaI, LiBr and LiCl in ethanol at 50 degrees C 
+S0036024417110188.pdf --> Dependences of the Osmotic Coefficients of Aqueous Calcium Chloride Solutions on Concentration at Different Temperatures
+
+
+MgSO4:
+1-s2.0-S0021961402003154-main20.pdf --> Water activity, osmotic and activity coefficients of Li2SO4, Na2SO4, K2SO4, (NH4)2SO4, MgSO4, MnSO4, NiSO4, CuSO4, and ZnSO4 at T = 298.15 K
+acs.jced.6b00239.pdf --> Isopiestic Measurements of Water Activity for the Li2SO4−MgSO4−H2O System at 323.15 and 373.15 K
+archer-rard-1998-isopiestic-investigation-of-the-osmotic-and-activity-coefficients-of-aqueous-mgso4-and-the-solubility
+je00023a013.pdf --> Isopiestic Determination of the Osmotic Coefficients of Aqueous Na2SO4, MgSO4 and Na2SO4-MgSO4 at 25C
+s0021-96142900315-4.pdf --> Water activity, osmotic and activity coefficients of aqueous solutions of Li2SO4, Na2SO4, K2SO4, (NH4)2SO4, MgSO4, MnSO4, NiSO4, CuSO4, and ZnSO4 at T = 298.15 K
+
+
+
+Li2SO4:
+1.3253108.pdf --> Osmotic Coefficients and Mean Activity Coefficients of Uni-univalent Electrolytes in Water at 25°C
+1-s2.0-S0021961402003154-main20.pdf --> Water activity, osmotic and activity coefficients of Li2SO4, Na2SO4, K2SO4, (NH4)2SO4, MgSO4, MnSO4, NiSO4, CuSO4, and ZnSO4 at T = 298.15 K
+920881.pdf --> Isopiestic Determination of the Osmotic and Activity Coefficients of Li2SO4(aq) at T = 298.15 and 323.15 K, and Representation with an Extended Ion-interaction (Pitzer) model
+acs.jced.6b00239.pdf --> Isopiestic Measurements of Water Activity for the Li2SO4−MgSO4−H2O System at 323.15 and 373.15 K
+s0021-96142900315-4.pdf --> Water activity, osmotic and activity coefficients of aqueous solutions of Li2SO4, Na2SO4, K2SO4, (NH4)2SO4, MgSO4, MnSO4, NiSO4, CuSO4, and ZnSO4 at T = 298.15 K

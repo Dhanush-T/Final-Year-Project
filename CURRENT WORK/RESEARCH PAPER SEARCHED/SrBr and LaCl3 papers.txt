@@ -32,6 +32,25 @@ https://doi.org/10.1021/j150503a016
 https://doi.org/10.1021/j150508a028
 https://doi.org/10.1021/je60083a019
 
+SrBr - Multi Salts
+https://doi.org/10.1134/S0036023622040076
+https://doi.org/10.1016/j.molliq.2018.01.020
+https://doi.org/10.1016/j.fluid.2020.112763
+https://doi.org/10.1016/j.molliq.2020.112635
+https://doi.org/10.1252/jcej.16we314
+https://doi.org/10.1021/acs.jced.6b00799
+https://doi.org/10.1021/acs.jced.0c00478
+https://doi.org/10.1252/jcej.19we137
+https://doi.org/10.1021/acs.jced.9b01144
+https://doi.org/10.1021/acs.jced.3c00324
+https://doi.org/10.1021/acs.jced.0c00487
+https://doi.org/10.1021/acs.jced.7b00273
+https://doi.org/10.1021/acs.jced.9b00225
+https://doi.org/10.1134/S0036024416020114
+https://doi.org/10.1021/acs.jced.3c00207
+https://doi.org/10.1016/j.jcrysgro.2019.125234
+https://doi.org/10.1016/j.fluid.2022.113629
+
 LaCl3.7H2O
 https://doi.org/10.1021/ja01274a036
 https://doi.org/10.1039/B108053A

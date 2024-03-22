@@ -1,0 +1,26 @@
+Na2SO4 Research paper reference details:
+
+SLE 	25 	308−514 	2.94−3.46 	[39]
+--> https://search.worldcat.org/title/solubilities-inorganic-and-metal-organic-compounds/oclc/656173145 = Cant able to download
+
+SLE 	11 	330−371 	3.03−3.60 	[55]
+--> https://doi.org/10.1021/ja01402a007 = Downloaded but giving some other data
+
+SLE 	12 	272−303 	0.28−2.82 	[58]
+--> http://www.aim.env.uea.ac.uk/aim/accent/nh4-na-so4.htm = This has some values, but not sure
+--> https://predict.kikirpa.be/wp-content/uploads/2022/01/Price-2000-An-expert-chemical-model-for-determining-the-envir.pdf = Not sure of this one
+
+SLE 	16 	298−303 	1.95−2.98 	[59]
+--> https://sci-hub.wf/10.1021/ie50478a042 = Downloaded and has some data, but not sure of it
+
+SLE 	14 	273−305 	0.33−3.78 	[60]
+--> https://www.jstor.org/stable/90862 = Cant able to downlaod
+
+SLE 	05 	288−298 	0.91−1.93 	[61]
+--> https://sci-hub.wf/10.1021/ja02234a016 = Downlaoded and has some data, but not sure of it
+
+SLE 	06 	273−297 	1.25−3.69 	[62]
+--> https://sci-hub.wf/10.1021/j150398a007 = Downlaoded and has some data, but not sure of it
+
+SLE 	02 	313−323 	3.26−3.38 	[63]
+--> https://www.scopus.com/home.uri = Redirecting to this website, but nothing useful found

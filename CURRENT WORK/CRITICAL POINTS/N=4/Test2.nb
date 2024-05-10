@@ -1,0 +1,171 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5233,        163]
+NotebookOptionsPosition[      4751,        146]
+NotebookOutlinePosition[      5152,        162]
+CellTagsIndexPosition[      5109,        159]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Step", " ", "1"}], ":", 
+    RowBox[{
+    "Define", " ", "your", " ", "function", " ", "and", " ", "its", " ", 
+     "partial", " ", "derivatives"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"f", "[", 
+      RowBox[{"x_", ",", "y_"}], "]"}], ":=", 
+     RowBox[{
+      RowBox[{"x", "^", "2"}], "+", 
+      RowBox[{"y", "^", "2"}], "+", 
+      RowBox[{"4", "*", "x", "*", "y"}]}]}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{"Define", " ", "your", " ", "function", " ", "here"}], "*)"}], 
+   "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"dfdx", "[", 
+      RowBox[{"x_", ",", "y_"}], "]"}], ":=", 
+     RowBox[{"D", "[", 
+      RowBox[{
+       RowBox[{"f", "[", 
+        RowBox[{"x", ",", "y"}], "]"}], ",", "x"}], "]"}]}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{
+    "First", " ", "partial", " ", "derivative", " ", "with", " ", "respect", 
+     " ", "to", " ", "x"}], "*)"}], "\n", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"dfdxdx", "[", 
+      RowBox[{"x_", ",", "y_"}], "]"}], ":=", 
+     RowBox[{"D", "[", 
+      RowBox[{
+       RowBox[{"dfdx", "[", 
+        RowBox[{"x", ",", "y"}], "]"}], ",", "x"}], "]"}]}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Second", " ", "partial", " ", "derivative", " ", "with", " ", "respect", 
+     " ", "to", " ", "x"}], "*)"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Step", " ", "2"}], ":", 
+     RowBox[{"Set", " ", "up", " ", "your", " ", "equations"}]}], "*)"}], 
+   "\n", 
+   RowBox[{
+    RowBox[{"eq1", "=", 
+     RowBox[{
+      RowBox[{"dfdx", "[", 
+       RowBox[{"x", ",", "y"}], "]"}], "==", "0"}]}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{"Equation", " ", "1"}], "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"eq2", "=", 
+     RowBox[{
+      RowBox[{"dfdxdx", "[", 
+       RowBox[{"x", ",", "y"}], "]"}], "==", "0"}]}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{"Equation", " ", "2"}], "*)"}], "\[IndentingNewLine]", "\n", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Step", " ", "3"}], ":", 
+     RowBox[{
+     "Solve", " ", "the", " ", "system", " ", "of", " ", "equations"}]}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"sol", "=", 
+    RowBox[{"Solve", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"D", "[", 
+          RowBox[{
+           RowBox[{"f", "[", 
+            RowBox[{"x", ",", "y"}], "]"}], ",", "x"}], "]"}], "==", "0"}], 
+        ",", 
+        RowBox[{
+         RowBox[{"D", "[", 
+          RowBox[{
+           RowBox[{"f", "[", 
+            RowBox[{"x", ",", "y"}], "]"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "2"}], "}"}]}], "]"}], "==", "0"}]}], "}"}], 
+      ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}]}], "]"}]}], "\[IndentingNewLine]", "\n", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Step", " ", "4"}], ":", 
+     RowBox[{"Find", " ", "the", " ", "intersection", " ", "point", 
+      RowBox[{"(", "s", ")"}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"intersectionPoints", "=", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x", ",", "y"}], "}"}], "/.", " ", "sol"}]}], "*)"}], 
+   "\[IndentingNewLine]", "\n", 
+   RowBox[{"(*", 
+    RowBox[{"Optional", ":", 
+     RowBox[{
+     "Evaluate", " ", "the", " ", "function", " ", "at", " ", "the", " ", 
+      "intersection", " ", "point", 
+      RowBox[{"(", "s", ")"}]}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"fIntersection", "=", 
+     RowBox[{"f", "@@@", "intersectionPoints"}]}], "*)"}]}]}]], "Input",
+ CellChangeTimes->{{3.9241628229233017`*^9, 3.9241628275878067`*^9}, {
+  3.9241629521034155`*^9, 3.9241629922103415`*^9}, {3.924163022861285*^9, 
+  3.9241630344003825`*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"54ba72ba-9690-473f-8f12-076d578ed4d7"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{
+  3.9241629329379807`*^9, {3.9241629748566275`*^9, 3.9241629960707827`*^9}, 
+   3.924163037222989*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"f2e343e8-a71a-4929-88be-ad2483f705a2"]
+}, Open  ]]
+},
+WindowSize->{1141.2, 568.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"11e078c3-6e7f-4f2a-9dbf-e6a70296c139"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 3905, 114, 333, "Input",ExpressionUUID->"54ba72ba-9690-473f-8f12-076d578ed4d7"],
+Cell[4488, 138, 247, 5, 32, "Output",ExpressionUUID->"f2e343e8-a71a-4929-88be-ad2483f705a2"]
+}, Open  ]]
+}
+]
+*)
+
